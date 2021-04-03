@@ -131,3 +131,4 @@ dmypy.json
 .idea/**
 **/.idea
 3rd-party/**
+automated-plant-watering/src/configuration/config.json
