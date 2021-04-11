@@ -26,6 +26,6 @@ class MoistureSensor(SensorBase):
             raise ValueError("ERROR: while converting to percentage, max is less than min")
         if offset_less_value < 0:
             offset_less_value = 0
-            print("WARNING: while converting to percentage, value is less than minimum value")
+            # print("WARNING: while converting to percentage, value is less than minimum value")
         return (1 - (offset_less_value / offset_less_max)) * 100
 

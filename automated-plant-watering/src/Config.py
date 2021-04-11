@@ -6,7 +6,6 @@ import ujson
 class Config:
 
     def __init__(self, config_path):
-        print(os.listdir())
         with open(config_path, "r") as file:
             self.config = ujson.load(file)
 
